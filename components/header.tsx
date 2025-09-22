@@ -18,6 +18,9 @@ export default function Header() {
             <Link href="/" className="hover:text-aurora-600 transition-colors font-medium">
               Home
             </Link>
+            <Link href="/chi-sono" className="hover:text-aurora-600 transition-colors font-medium">
+              Chi sono
+            </Link>
             <Link href="/skills-services" className="hover:text-aurora-600 transition-colors font-medium">
               Competenze & Servizi
             </Link>
@@ -59,6 +62,11 @@ export default function Header() {
             <li>
               <Link href="/" className="block py-2 text-lg font-medium hover:text-aurora-600" onClick={() => setOpen(false)}>
                 Home
+              </Link>
+            </li>
+            <li>
+              <Link href="/chi-sono" className="block py-2 text-lg font-medium hover:text-aurora-600" onClick={() => setOpen(false)}>
+                Chi sono
               </Link>
             </li>
             <li>
