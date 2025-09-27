@@ -17,6 +17,7 @@ export default function ChiSono() {
           <h1 className="text-4xl font-bold mb-4">Chi sono</h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             Ciao! Sono Francesco Borrelli, digital designer con la passione per l'arte e la tecnologia. Creo esperienze digitali belle, intuitive e funzionali.
+          </p>
         </header>
 
         {/* Profile Section */}
